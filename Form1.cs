@@ -102,19 +102,19 @@ namespace lab9
             string userName = textBox_nazwisko_i_imie.Text;
             string semestrIRok = textBox_semestr_i_rok.Text;
             string kierunekIStopienStudiow = textBox_kierunek_i_stopien_studiow.Text;
-           // string data1 = textBox_data1.Text;
-           // string nazwaPrzedmiotu = textBox5_nazwa_przedmiotu.Text;
-           // int liczbaPunktow = int.Parse(textBox_liczba_punktow.Text);
-           // string prowadzacy = textBox_prowadzacy.Text;
-           // string uzasadnienie = textBox_uzasadnienie.Text;
-           // string czlonekKomisji1 = textBox_czlonek_komisji1.Text;
-           // string czlonekKomisji2 = textBox_czlonek_komisji2.Text;
-           // string czlonekKomisji3 = textBox_czlonek_komisji3.Text;
-           // string dataPodpisStudenta = textBox10_data_i_podpis_studenta.Text;
-           // string data2 = textBox_data2.Text;
-           // string pieczatkaIPodpis = textBox_pieczatka_i_podpis.Text;
+            string data1 = textBox_data1.Text;
+            string nazwaPrzedmiotu = textBox5_nazwa_przedmiotu.Text;
+            int liczbaPunktow = int.Parse(textBox_liczba_punktow.Text);
+            string prowadzacy = textBox_prowadzacy.Text;
+            string uzasadnienie = textBox_uzasadnienie.Text;
+            string czlonekKomisji1 = textBox_czlonek_komisji1.Text;
+            string czlonekKomisji2 = textBox_czlonek_komisji2.Text;
+            string czlonekKomisji3 = textBox_czlonek_komisji3.Text;
+            string dataPodpisStudenta = textBox10_data_i_podpis_studenta.Text;
+            string data2 = textBox_data2.Text;
+            string pieczatkaIPodpis = textBox_pieczatka_i_podpis.Text;
 
-            baza_danych.WriteData(userId, userName, semestrIRok, kierunekIStopienStudiow);
+            baza_danych.WriteData(userId, userName, semestrIRok, kierunekIStopienStudiow, data1, nazwaPrzedmiotu, liczbaPunktow, prowadzacy, uzasadnienie, czlonekKomisji1, czlonekKomisji2, czlonekKomisji3, dataPodpisStudenta, data2, pieczatkaIPodpis);
         }
     }
 }
